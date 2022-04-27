@@ -5,7 +5,6 @@ const addressSet = {
     bnbKlear: "0x91B99adea8AE16bE8A6E3039FD2438DAF5e18159",
     bnbBusd: "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16"
 }
-
 module.exports = {
     addressSet
 };
