@@ -131,7 +131,6 @@ function WalletContainer() {
                 ]
             }
         });
-        console.log(currentProvider);
         await currentProvider.enable();
         
         if (currentProvider) {
