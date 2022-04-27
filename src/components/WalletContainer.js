@@ -27,7 +27,6 @@ const useStyles = makeStyles({
     color: blue[600],
   },
 });
-
 function SimpleDialog(props) {
     const classes = useStyles();
     const { onClose, selectedValue, open } = props;

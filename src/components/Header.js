@@ -16,7 +16,6 @@ import DialogTitle from './DialogTitle'
 import Dialog from '@material-ui/core/Dialog';
 import { blue } from '@material-ui/core/colors';
 
-
 const connectWalletTypes = ['Metamask', 'WalletConnect'];
 
 const ColorButton = withStyles((theme) => ({
