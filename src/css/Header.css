@@ -1,0 +1,58 @@
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-link {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.header-connect-btn {
+    width: 105px;
+    height: 35px;
+    background-color: #f0b90b;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+}
+
+.header-connect-btn:hover {
+    cursor: pointer;
+    background-color: #f0d785;
+}
+.header-connect-btn:active {
+    border-color: #775d08;
+    background-color: white;
+}
+
+.swap-connect-wallet-image {
+    width: 30px;
+    height: 30px;
+}
+
+.wallet-btn{
+    background-color: #f0b90b;
+    margin-bottom: 12px;
+    border-radius: 16px;
+    padding: 5.5px 20px;
+}
+
+.wallet-btn:hover{
+    border: 1px solid #38383d;
+}
+
+@media only screen and (max-width: 500px) {
+    .header-section {
+        height: 80px;
+    }
+    .header-section-none {
+        display: none;
+    }
+}
